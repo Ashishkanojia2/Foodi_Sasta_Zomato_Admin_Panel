@@ -1,0 +1,120 @@
+.order-section .order-head1 {
+  font-size: 50px;
+  font-weight: 800;
+  color: #ffb700;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.order-container {
+  display: flex;
+  flex-direction: column;
+  /* align-self: center; */
+  background-color: #e7e7e7;
+  width: 100%;
+  height: 70vh;
+  overflow-y: scroll;
+  /* align-items: center; */
+  padding-left: 5%;
+}
+.order-row_card1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  background-color: #000;
+  color: #fff;
+  width: 90%;
+  box-shadow: 0px, 0px 10px, gray;
+  border-radius: 10px;
+}
+.ordertxt {
+  width: 25%;
+  text-align: center;
+}
+.inputtxt {
+  width: 15%;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-color: #ffb700;
+  border-radius: 10px;
+  height: 30px;
+}
+.ordertxt_item {
+  width: 25%;
+  text-align: center;
+}
+.ordertxt02 {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  /* align-self: center; */
+}
+.order-row_card1 button {
+  width: 70px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: #000;
+  border: none;
+  color: #0091ff;
+  font-weight: 700;
+  /* cursor: pointer; */
+  margin: 0px 10px;
+}
+.order-s1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+.order-s1-in {
+  display: flex;
+  flex-direction: column;
+}
+.order-s1-in select {
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  border-radius: 1px solid #ffb700;
+}
+.order-s1-in p {
+  margin: 0px;
+  font-size: 15px;
+  color: #ffb700;
+}
+.searchbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10 gray;
+  width: 500px;
+  border-radius: 30px;
+  border: 1px solid #ffb700;
+  margin-right: 20px;
+}
+.order_row_card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px gray;
+  margin: 10px 0px;
+  width: 91%;
+  border-radius: 10px;
+}
+.ordertx_item {
+  width: 30%;
+  text-align: center;
+}
+/* .order_row_card .showdetailsbtn {
+  width: 20%;
+  background-color: #000;
+  border-radius: 10px;
+  font-size: 10%;
+} */
