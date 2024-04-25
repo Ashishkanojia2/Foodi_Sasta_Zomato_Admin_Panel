@@ -4,6 +4,7 @@ import { Link, useParams } from "react-router-dom";
 import { db } from "../../../FireBase/FireBaseConfig";
 import { doc, getDoc } from "firebase/firestore";
 
+import "./ShowOrderSpecific.css";
 const ShowOrderSpecific = () => {
   const { orderid } = useParams();
 
@@ -28,31 +29,31 @@ const ShowOrderSpecific = () => {
       <Link to={"/order"}>
         <button className="GobackBtn">Go Back </button>
       </Link>
-      <h1 className="order-head">Order details</h1>
+      <h1 className="order-head">Order Details</h1>
       <div className="orderdetails-form">
         <div className="orderdetails_row">
           <p>Order ID </p>
-          <p>{orderdata.orderid}</p>
+          <p className="orderdetails_rowAns">{orderdata.orderid}</p>
         </div>
         <div className="orderdetails_row">
           <p>Custome Name</p>
-          <p>{orderdata.ordername}</p>
+          <p className="orderdetails_rowAns">{orderdata.ordername}</p>
         </div>
         <div className="orderdetails_row">
           <p>Order Address</p>
-          <p>{orderdata.orderAddress}</p>
+          <p className="orderdetails_rowAns">{orderdata.orderAddress}</p>
         </div>
         <div className="orderdetails_row">
           <p>Custome Phone Number</p>
-          <p>{orderdata.orderphone}</p>
+          <p className="orderdetails_rowAns">{orderdata.orderphone}</p>
         </div>
         <div className="orderdetails_row">
           <p>Order status</p>
-          <p>{orderdata.orderStatus}</p>
+          <p className="orderdetails_rowAns">{orderdata.orderStatus}</p>
         </div>
         <div className="orderdetails_row">
           <p>Order Cost</p>
-          <p>{orderdata.orderCost}</p>
+          <p className="orderdetails_rowAns">{orderdata.orderCost}</p>
         </div>
       </div>
     </div>
